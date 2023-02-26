@@ -1,0 +1,175 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 640px;
+  height: 404px;
+  left: 320px;
+  top: 246px;
+
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+
+  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
+    0px 1px 2px rgba(16, 24, 40, 0.06);
+  border-radius: 8px;
+  overflow-x: "hidden" !important;
+}
+
+.table-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 200px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.table-firstname {
+  width: 63px;
+  height: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #101828;
+}
+
+.table-cell {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 12px;
+
+  width: 215px;
+  height: 72px;
+
+  border-bottom: 1px solid #eaecf0;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.table-col {
+  width: 31px;
+  height: 18px;
+  color: #475467;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 0px;
+  
+}
+
+.table-col1 {
+  width: 31px;
+  height: 18px;
+  color: #475467;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 21px;
+}
+
+.table-email {
+  width: 106px;
+  height: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475467;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.table-age {
+  width: 18px;
+  height: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #475467;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.table-gender {
+  width: 32px;
+  height: 20px;
+
+  /* Text sm/Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #475467;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+::-webkit-scrollbar {
+    background: #F7FAF8;
+    border-width: 0px 0.5px;
+    border-style: solid;
+    border-color: #E1E6E2;
+    width: 12px;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #C6CCC8;
+    border-radius: 8px;
+    overflow-x: hidden;
+  }
+
+  div::-webkit-scrollbar{
+    overflow-x: hidden;
+  }
+
+  .my-data-grid .MuiDataGrid-root {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+  }
+  
+
+  
